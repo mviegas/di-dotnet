@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "DI in .NET Core Examples";
+}
+
+<div class="text-center">
+    <h1 class="display-4">DI in .NET Core Examples</h1>
+    <br />
+    <br />
+
+    <div class="row">
+        <div class="col-6">
+            <h2>Controller</h2>
+            <br />
+
+            <h3>Transient</h3>
+            <p>@ViewBag.Transient</p>
+            <br />
+
+            <h3>Singleton</h3>
+            <p>@ViewBag.Singleton</p>
+            <br />
+
+            <h3>Scoped</h3>
+            <p>@ViewBag.Scoped</p>
+            <br />
+        </div>
+        <div class="col-6">
+                <h2>Service</h2>
+                <br />
+                
+                <h3>Transient</h3>
+                <p>@ViewBag.ServiceTransient</p>
+                <br />
+    
+                <h3>Singleton</h3>
+                <p>@ViewBag.ServiceSingleton</p>
+                <br />
+    
+                <h3>Scoped</h3>
+                <p>@ViewBag.ServiceScoped</p>
+                <br />
+            </div>
+    </div>
+</div>
